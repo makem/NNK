@@ -1,0 +1,16 @@
+extends layout/layout2
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  p.
+    Hello thats me
+    I'm try to us p element
+    p - is a new variant
+  p - new
+  p= title
+  p= user.name
+
+  -for (var x = 0; x < 3; x++)
+   li Hi = #{user.position}
