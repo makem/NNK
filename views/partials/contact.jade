@@ -1,0 +1,47 @@
+section#contact
+  .section-header
+    .container
+      h1 Контакты
+    .container.content
+      .row-fluid
+        .span8.offset2.contact-info
+          .row-fluid
+            .span5
+              h4 Полезные страницы
+              p
+                i.li_location
+                | 30 South Park Avenue
+              p
+                i.li_location
+                | San Francisco, CA 94108, USA
+              p
+                i.li_phone
+                | Phone: (123) 456-7890
+              p
+                i.li_mail
+                | Email: contact@companyname.com
+              p
+                i.li_world
+                | Web: bootstrapmaster.com
+              p
+                i.li_world
+                | Web: nessfile.com
+            .span7
+              h4 Оставьте нам сообщение
+              #contact-form
+                form(method='post')
+                  fieldset
+                    .row-fluid
+                      .span12
+                        input#name.span12(tabindex='1', name='name', type='text', value='', placeholder='Name: ...')
+                    .row-fluid
+                      .span6
+                        input#email.span12(tabindex='2', name='email', type='text', value='', placeholder='Email: ...')
+                      .span6
+                        input#www.span12(tabindex='3', name='www', type='text', value='', placeholder='WWW: ...')
+                    .row-fluid
+                      .span12
+                        textarea#message.span12(tabindex='4', name='body', rows='7', placeholder='Сообщение: ...')
+                    .actions
+                      button.send.btn.btn-primary(tabindex='5', type='submit') Отправить
+    #map San Francisco, United States

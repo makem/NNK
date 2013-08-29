@@ -1,0 +1,32 @@
+footer
+  .container
+    .row-fluid
+      .span12.nav
+        ul.scroll-nav
+          li.active
+            a(href='#home') Главная
+          li
+            a.scroll(href='#about') О нас
+          li
+            a.scroll(href='#row-order') Реклама
+          li
+            a.scroll(href='#team') Команда
+          li
+            a.scroll(href='#pricing') Цены
+          li
+            a.scroll(href='#design') Дизайн
+    .row-fluid
+      .span7
+        h4 Новости твиттера
+        #twitter-nav
+          a#tweet-prev(href='#')
+          a#tweet-next(href='#')
+        #twitter
+          ul.slides
+      .span5
+        h4 Newsletter
+        .row-fluid
+          form#newsletter
+            input.name.span5(type='text', placeholder='your name')
+            input.email.span5(type='text', placeholder='your email')
+            input.email.span2(type='button', value='ok')

@@ -1,0 +1,100 @@
+section#row-order.ng-scope(ng-app='orders')
+  .section-header
+    .container
+      h1 Реклама
+    .container.content
+      .container.span12
+        .row(ng-controller='Ctrl')
+          .span5
+            form.form-horizontal
+              fieldset
+                legend(style='text-align: center;') Размещение строчного объявления
+                .control-group
+                  label.control-label Организация
+                  .controls
+                    input.input-xlarge(type='text', placeholder='Наименование организации', required='required', ng-model='advert.name')
+                .control-group
+                  label.control-label Адрес
+                  .controls
+                    input.input-xlarge(type='text', placeholder='Физический адрес', required='required', ng-model='advert.address')
+                .control-group
+                  label.control-label Телефон
+                  .controls
+                    input.input-xlarge(type='text', placeholder='Телефон', required='required', ng-model='advert.phone')
+                .control-group
+                  label.control-label Емейл
+                  .controls
+                    input.input-xlarge(type='email', placeholder='Email', required='required', ng-model='advert.email')
+                    p.help-block На этот ящик придет письмо с квитанцией
+                .control-group
+                  label.control-label Сайт
+                  .controls
+                    input.input-xlarge(type='text', placeholder='http://www...', ng-model='advert.site')
+                .control-group
+                  label.control-label(for='radios') Выход
+                  .controls
+                    table
+                      tr(ng-repeat='y in years.data')
+                        td(ng-repeat='m in y', ng-class='years.getClassName(m)', ng-click='years.select(m)')
+                          | {{m.name}}
+                .control-group
+                  label.control-label
+                  .controls
+                    label.checkbox
+                      input(type='checkbox', ng-model='advert.agreed', value='Я согласен с <a href=\'#\'>условиями</a> размещения строчной рекламы в издании')
+                      | Я согласен с
+                      a(href='#') условиями
+                      | размещения строчной рекламы в издании
+          .span4
+            form.form-horizontal
+              fieldset
+                legend(style='text-align: right;') (заполните поля заявки)
+                .control-group
+                  label.control-label Категория
+                  .controls
+                    select.input-xlarge.span5(ng-model='advert.category', ng-options='c.id as c.name for c in categories')
+                .control-group
+                  label.control-label Текст
+                  .controls
+                    textarea#textarea.span5(name='textarea', style='min-height: 2em;', ng-model='advert.text')
+                .control-group
+                  .controls
+                    | {{advert.textLengthLeft()}}
+                .control-group
+                  .controls
+                    label.checkbox.inline(for='checkboxes-0')
+                      input#checkboxes-0(type='checkbox', ng-model='advert.colored')
+                      | Выделение цветом
+                    label.checkbox.inline(for='checkboxes-1')
+                      input#checkboxes-1(type='checkbox', ng-model='advert.bordered')
+                      | Рамка
+                .control-group
+                  label.control-label Превью
+                  .controls
+                    .order-preview
+                      div(ng-class='advert.coloredClass()')
+                        span.name {{advert.name}}
+                        span.phone {{advert.phone}}
+                        span.email
+                          span.text {{advert.text}}
+                .control-group
+                  label.control-label Цена
+                  .controls.price
+                    span.value {{advert.price().total}}
+                    | lt за одну публикацию, из них :
+                    ul.price-lines
+                      li(ng-repeat='p in advert.price().items')
+                        | {{p.price}} lt = {{p.name}}
+                .control-group.total
+                  label.control-label Итого
+                  .controls
+                    span {{advert.price().total}}
+                    | lt *
+                    span {{advert.causes()}}
+                    | =
+                    span.total-sum {{advert.total()}}
+                    | lt к оплате
+                .control-group
+                  label.control-label
+                  .controls
+                    button.btn.btn-success Отправить заявку

@@ -6,8 +6,17 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/index.js" changelist="dc5e16dd-2875-4070-b15b-4db6adcd71ef" time="1377770366367" ignored="false" />
     <file path="/index.jade" changelist="dc5e16dd-2875-4070-b15b-4db6adcd71ef" time="1377770643213" ignored="false" />
-    <file path="/home.jade" changelist="dc5e16dd-2875-4070-b15b-4db6adcd71ef" time="1377770503679" ignored="false" />
-    <file path="/layout2.jade" changelist="dc5e16dd-2875-4070-b15b-4db6adcd71ef" time="1377770571218" ignored="false" />
+    <file path="/home.jade" changelist="dc5e16dd-2875-4070-b15b-4db6adcd71ef" time="1377791609171" ignored="false" />
+    <file path="/layout2.jade" changelist="dc5e16dd-2875-4070-b15b-4db6adcd71ef" time="1377778891415" ignored="false" />
+    <file path="/home.js" changelist="dc5e16dd-2875-4070-b15b-4db6adcd71ef" time="1377779337506" ignored="false" />
+    <file path="/server.js" changelist="dc5e16dd-2875-4070-b15b-4db6adcd71ef" time="1377778731727" ignored="false" />
+    <file path="/main.jade" changelist="dc5e16dd-2875-4070-b15b-4db6adcd71ef" time="1377789867371" ignored="false" />
+    <file path="/navigation.jade" changelist="dc5e16dd-2875-4070-b15b-4db6adcd71ef" time="1377784745727" ignored="false" />
+    <file path="/header.jade" changelist="dc5e16dd-2875-4070-b15b-4db6adcd71ef" time="1377785259713" ignored="false" />
+    <file path="/start.jade" changelist="dc5e16dd-2875-4070-b15b-4db6adcd71ef" time="1377786203479" ignored="false" />
+    <file path="/a.js" changelist="dc5e16dd-2875-4070-b15b-4db6adcd71ef" time="1377785989910" ignored="false" />
+    <file path="/a.jade" changelist="dc5e16dd-2875-4070-b15b-4db6adcd71ef" time="1377785994860" ignored="false" />
+    <file path="/main-menu.jade" changelist="dc5e16dd-2875-4070-b15b-4db6adcd71ef" time="1377791778629" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +36,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="44" selection-start="138" selection-end="138" vertical-scroll-proportion="0.13631158">
+            <state line="22" column="18" selection-start="528" selection-end="534" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -39,25 +48,43 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="70" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+            <state line="7" column="89" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <file leaf-file-name="main.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layout/main.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+            <state line="23" column="21" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout2.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layout/layout2.jade">
+      <file leaf-file-name="home.jade" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/home.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="16" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+            <state line="7" column="4" selection-start="149" selection-end="149" vertical-scroll-proportion="0.20307167">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/partials/header.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="46" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-menu.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/snippets/main-menu.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="4" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,10 +100,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/views/home.jade" />
-        <option value="$PROJECT_DIR$/views/index.jade" />
         <option value="$PROJECT_DIR$/views/layout/layout2.jade" />
+        <option value="$PROJECT_DIR$/views/partials/header.jade" />
+        <option value="$PROJECT_DIR$/views/navigation.jade" />
+        <option value="$PROJECT_DIR$/views/layout/main.jade" />
+        <option value="$PROJECT_DIR$/views/partials/start.jade" />
+        <option value="$PROJECT_DIR$/views/partials/about.jade" />
+        <option value="$PROJECT_DIR$/views/partials/order.jade" />
+        <option value="$PROJECT_DIR$/views/partials/team.jade" />
+        <option value="$PROJECT_DIR$/views/partials/price.jade" />
+        <option value="$PROJECT_DIR$/views/partials/design.jade" />
+        <option value="$PROJECT_DIR$/views/partials/contact.jade" />
+        <option value="$PROJECT_DIR$/views/partials/footer.jade" />
+        <option value="$PROJECT_DIR$/views/partials/copyright.jade" />
+        <option value="$PROJECT_DIR$/views/partials/scripts.jade" />
+        <option value="$PROJECT_DIR$/views/snippets/main-menu.jade" />
+        <option value="$PROJECT_DIR$/views/home.jade" />
       </list>
     </option>
   </component>
@@ -117,31 +156,17 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NNN" />
+              <option name="myItemId" value="NNK" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NNN" />
+              <option name="myItemId" value="NNK" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NNN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NNN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NNN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
+              <option name="myItemId" value="NNK" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -150,12 +175,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.sourceCode.Jade" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\NNN\public" />
+      <recent name="D:\Projects\NNN\public\css" />
+      <recent name="D:\Projects\NNN\routes" />
       <recent name="D:\Projects\NNN\views\layout" />
       <recent name="D:\Projects\NNN\views" />
     </key>
@@ -177,6 +209,23 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="dc5e16dd-2875-4070-b15b-4db6adcd71ef" name="Default" comment="" />
@@ -212,11 +261,11 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986821" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24986821" sideWeight="0.5451505" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24986821" sideWeight="0.6822742" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4548495" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31772575" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -288,106 +337,92 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/views/partials/start.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="70" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="77" column="36" selection-start="6328" selection-end="6328" vertical-scroll-proportion="1.8885018" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout/layout2.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="46" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
+        <state line="7" column="89" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
+    <entry file="file://$PROJECT_DIR$/views/partials/team.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+        <state line="58" column="32" selection-start="1989" selection-end="1989" vertical-scroll-proportion="1.6854701" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/price.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="0" selection-start="2558" selection-end="2558" vertical-scroll-proportion="2.9350426" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/design.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="25" selection-start="1631" selection-end="1631" vertical-scroll-proportion="0.82564104" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/order.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="51" selection-start="4707" selection-end="4707" vertical-scroll-proportion="2.3076923" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/footer.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="869" selection-end="869" vertical-scroll-proportion="0.92991453" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/copyright.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="0.4940171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/about.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="25" selection-start="2738" selection-end="2738" vertical-scroll-proportion="1.5454545" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/scripts.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="57" selection-start="614" selection-end="614" vertical-scroll-proportion="0.43589744" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout/main.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="21" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+    <entry file="file://$PROJECT_DIR$/views/partials/contact.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="28" column="52" selection-start="753" selection-end="753" vertical-scroll-proportion="0.8136752" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/user.js">
+    <entry file="file://$PROJECT_DIR$/views/partials/header.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="39" selection-end="39" vertical-scroll-proportion="0.14782609" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="70" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+        <state line="11" column="46" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+    <entry file="file://$PROJECT_DIR$/views/snippets/main-menu.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="4" column="4" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/home.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="37" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout/layout2.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="110" selection-end="110" vertical-scroll-proportion="0.10059172">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="44" selection-start="138" selection-end="138" vertical-scroll-proportion="0.13631158">
+        <state line="7" column="4" selection-start="149" selection-end="149" vertical-scroll-proportion="0.20307167">
           <folding />
         </state>
       </provider>
